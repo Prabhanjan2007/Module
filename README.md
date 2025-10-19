@@ -110,3 +110,4 @@ int main()
 }
 ```
 # output
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/921a6ee7-b929-475d-abd9-fc0690c55b62" />
