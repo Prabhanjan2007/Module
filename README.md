@@ -12,16 +12,101 @@ int main()
 }
 ```
 # output
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/0d0c8cbe-61bf-492b-9835-f1942fd9aedd" />
 
 # day 2
+Write a C program to read  N value and check that value is equal to 10 or not using if-else
 # program
+```
+#include<stdio.h>
+int main()
+{
+    int N;
+    scanf("%d",&N);
+    if(N!=10)
+    {
+        printf("Given number is NOT TEN.");
+    }
+    else
+    {
+        printf("Given number is TEN.");
+    }
+    return 0;
+}
+```
 # output
+
 # day 3
+Write a C program to find the maximum number from the given values (for example: a=-200 , b=200 ) using conditional operators (ternary operators).
 # program
+```
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d %d",&a,&b);
+    if(a>b)
+    {
+        printf("Maximum between %d and %d is %d",a,b,a);
+    }
+    else
+    {
+        printf("Maximum between %d and %d is %d",a,b,b);
+    }
+    return 0;
+}
+```
 # output
+
 # day 4
+Raju and Ramu purchased  a product  and they made a self analysis that if cost price and selling price of a product are input through the keyboard,Help them out to write a C program to determine whether the seller has made profit or incurred loss using IF-ELSE.
 # program
+```
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d\n%d",&a,&b);
+    if((b-a)>0)
+    {
+        printf("Profit = %d",b-a);
+    }
+    else
+    {
+        printf("Loss = %d",a-b);
+    }
+    return 0;
+}
+```
 # output
+
 # day 4
+Write a C program to check whether number is  even number and divisible by 3 or not using nested if.
 # program
+```
+#include<stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a%2==0)
+    {
+        printf("The number is even\n");
+        if(a%3==0)
+        {
+            printf("The number is divisible by %d",3);
+        }
+        else
+        {
+            printf("The number Not divisible by %d",3);
+        }
+    }
+    else
+    {
+        printf("The number is NOT an even number");
+    }
+    return 0;
+    
+}
+```
 # output
