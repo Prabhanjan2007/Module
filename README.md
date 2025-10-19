@@ -35,24 +35,18 @@ int main()
 }
 ```
 # output
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6d6f7380-0e80-49cf-b101-fc58b62b14cb" />
 
 # day 3
-Write a C program to find the maximum number from the given values (for example: a=-200 , b=200 ) using conditional operators (ternary operators).
+Write a C program to calculate the diameter and circumference of circle.
 # program
 ```
 #include <stdio.h>
 int main()
 {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    if(a>b)
-    {
-        printf("Maximum between %d and %d is %d",a,b,a);
-    }
-    else
-    {
-        printf("Maximum between %d and %d is %d",a,b,b);
-    }
+    float a;
+    scanf("%f",&a);
+    printf("Diameter of circle=%.2f units\nCircumference of circle=%.2f units",2*a,2*3.14*a);
     return 0;
 }
 ```
