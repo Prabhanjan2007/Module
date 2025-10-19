@@ -79,6 +79,7 @@ int main()
 }
 ```
 # output
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/05c01c6f-4b74-47e5-b224-51e68ccbfaa0" />
 
 # day 4
 Write a C program to check whether number is  even number and divisible by 3 or not using nested if.
