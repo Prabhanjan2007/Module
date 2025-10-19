@@ -51,6 +51,7 @@ int main()
 }
 ```
 # output
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/802bc196-5fce-47ce-a6d7-9e56f9828f24" />
 
 # day 4
 Raju and Ramu purchased  a product  and they made a self analysis that if cost price and selling price of a product are input through the keyboard,Help them out to write a C program to determine whether the seller has made profit or incurred loss using IF-ELSE.
